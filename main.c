@@ -20,9 +20,7 @@ int main(int argc, char** argv) {
     char buff[CHAR_MAX];
     char wynik[CHAR_MAX];
     while (fgets(buff, 127, f) != NULL) {
-        //printf("%lld,", strlen(buff));
         if (i == 40) {
-            //printf("%s", buff);
             wynik[j] = buff[9];
             j++;
             i = 0;
